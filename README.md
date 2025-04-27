@@ -10,7 +10,6 @@ ScreenWhisper captures the computer screen, analyzes it, and enables natural, ac
 ## Components
 
 
-
 - **Screen Parsing with Microsoft OmniParser**
   
   ScreenWhisper captures a screenshot and passes it through Microsoft OmniParser, which parses the screen into a structured set of screen elements like buttons, text fields, windows, and menus. This structured data provides a rich and detailed understanding of the screen state.
@@ -20,8 +19,13 @@ ScreenWhisper captures the computer screen, analyzes it, and enables natural, ac
     Using CrewAI, ScreenWhisper creates an Agent that reasons about the current screen and the user's goal.
     The agent is equipped with specialized tools (e.g., click handler, text input simulator, OCR enhancer) to interact with the screen. It plans actions, executes them (e.g., mouse movement, clicks, typing), and re-analyzes the screen after each interaction.
 
+## OmniParser 
+
+![img](https://github.com/kirpalsingh225/ScreenWhisper/blob/main/artifacts/output.png)
 
 ## Architecture
+
+![img](https://github.com/kirpalsingh225/ScreenWhisper/blob/main/artifacts/cua.png)
 
 ```
     Screenshot 
@@ -58,5 +62,6 @@ Install dependencies
 ```bash
   pip install -r requirements.txt
 ```
+
 
 

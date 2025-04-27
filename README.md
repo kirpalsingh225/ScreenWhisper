@@ -63,5 +63,8 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
+## References
+[1] Microsoft Research. OmniParser: Screen Understanding through Structured Parsing.
+Available: [https://www.microsoft.com/en-us/research/project/omniparser/](https://github.com/microsoft/OmniParser)
 
 

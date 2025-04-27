@@ -23,6 +23,9 @@ ScreenWhisper captures the computer screen, analyzes it, and enables natural, ac
 
 ![img](https://github.com/kirpalsingh225/ScreenWhisper/blob/main/artifacts/output.png)
 
+- **Output**
+  [{'type': 'text', 'bbox': [0.0052083334885537624, 0.7124999761581421, 0.05416666716337204, 0.7350000143051147], 'interactivity': False, 'content': 'dataset.zip', 'source': 'box_ocr_content_ocr'}, {'type': 'icon', 'bbox': [0.056129395961761475, 0.0037542819045484066, 0.11762545257806778, 0.11289024353027344], 'interactivity': True, 'content': '.pdf ', 'source': 'box_yolo_content_ocr'}, {'type': 'icon', 'bbox': [0.0007807731744833291, 0.003377351677045226, 0.058777738362550735, 0.11484784632921219], 'interactivity': True, 'content': 'Recycle Bin ', 'source': 'box_yolo_content_ocr'}]
+
 ## Architecture
 
 ![img](https://github.com/kirpalsingh225/ScreenWhisper/blob/main/artifacts/cua.png)

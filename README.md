@@ -66,6 +66,26 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
+
+## Current Progress
+✅ Screen capture and Microsoft OmniParser integration
+
+✅ Basic agent structure built using CrewAI
+
+✅ Tool-based action execution (clicking, typing, etc.)
+
+## Future Work
+- **Integration with LangGraph:**
+  To enable more flexible and traceable reasoning flows across tool calls and actions.
+
+- **Voice Input Integration:**
+  Allow users to give instructions via voice commands, making the system fully hands-free.
+
+- **Human Feedback:**
+  Integration of human feedback to make the agent work better.
+
+
+
 ## References
 [1] Microsoft Research. OmniParser: Screen Understanding through Structured Parsing.
 Available: [https://www.microsoft.com/en-us/research/project/omniparser/](https://github.com/microsoft/OmniParser)

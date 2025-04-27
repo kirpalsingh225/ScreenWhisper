@@ -74,7 +74,8 @@ Install dependencies
 
 ✅ Tool-based action execution (clicking, typing, etc.)
 
-## Future Work
+
+## Working on
 - **Integration with LangGraph:**
   To enable more flexible and traceable reasoning flows across tool calls and actions.
 
